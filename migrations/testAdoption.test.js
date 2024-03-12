@@ -23,6 +23,8 @@ contract('Adoption', (accounts) => {
       );
     });
 
+    // 
+
     it("can fetch the collection of all pet owners' addresses", async () => {
       const adopters = await adoption.getAdopters();
       assert.equal(
