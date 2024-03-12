@@ -23,7 +23,7 @@ contract('Adoption', (accounts) => {
       );
     });
 
-    // 
+    // kjfasjfda
 
     it("can fetch the collection of all pet owners' addresses", async () => {
       const adopters = await adoption.getAdopters();
